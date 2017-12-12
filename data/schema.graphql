@@ -1,0 +1,13 @@
+type bookList {
+  id: ID
+  title: String
+  author: String
+}
+
+type Query {
+  store: Store
+}
+
+type Store {
+  books: [bookList]
+}

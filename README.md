@@ -29,3 +29,5 @@ regenerate `data/schema.json`, and restart the server:
 ```
 npm run update-schema
 npm start
+```
+1.Open browser [localhost](http://localhost:3000/). Please mind the username and password for MySQL database of your local system.
